@@ -1,3 +1,3 @@
 module UnicornMetrics
-  VERSION = '0.2.4'
+  VERSION = File.read(File.join(__dir__, '../../../VERSION')).strip
 end
